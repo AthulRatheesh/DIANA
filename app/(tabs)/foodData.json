@@ -1,0 +1,530 @@
+{
+    "apple": {
+      "name": "Apple",
+      "origin": "Central Asia",
+      "family": "Rosaceae",
+      "scientificName": "Malus domestica",
+      "taste": "Sweet to tart, crisp texture",
+      "nutritionalInfo": {
+        "calories": "52 kcal",
+        "carbohydrates": "13.8g",
+        "protein": "0.3g",
+        "fiber": "2.4g",
+        "sugar": "10g"
+      }
+    },
+    "banana": {
+      "name": "banana",
+      "origin": "Southeast Asia",
+      "family": "Musaceae",
+      "scientificName": "Musa spp.",
+      "taste": "Sweet, soft texture",
+      "nutritionalInfo": {
+        "calories": "89 kcal",
+        "carbohydrates": "22.8g",
+        "protein": "1.1g",
+        "fiber": "2.6g",
+        "sugar": "12.2g"
+      }
+    },
+    "beetroot": {
+      "name": "Beetroot",
+      "origin": "Mediterranean region",
+      "family": "Amaranthaceae",
+      "scientificName": "Beta vulgaris",
+      "taste": "Earthy, sweet",
+      "nutritionalInfo": {
+        "calories": "43 kcal",
+        "carbohydrates": "9.6g",
+        "protein": "1.6g",
+        "fiber": "2.8g",
+        "sugar": "6.8g"
+      }
+    },
+    "orange": {
+      "name": "orange",
+      "origin": "Southeast Asia",
+      "family": "Rutaceae",
+      "scientificName": "Citrus × sinensis",
+      "taste": "Sweet to tart, juicy",
+      "nutritionalInfo": {
+        "calories": "47 kcal",
+        "carbohydrates": "11.8g",
+        "protein": "0.9g",
+        "fiber": "2.4g",
+        "sugar": "9.4g",
+        "vitaminC": "53.2 mg"
+      }
+    },
+    "mango": {
+      "name": "mango",
+      "origin": "South and Southeast Asia",
+      "family": "Anacardiaceae",
+      "scientificName": "Mangifera indica",
+      "taste": "Sweet, tropical, aromatic",
+      "nutritionalInfo": {
+        "calories": "60 kcal",
+        "carbohydrates": "15g",
+        "protein": "0.8g",
+        "fiber": "1.6g",
+        "sugar": "13.7g",
+        "vitaminC": "36.4 mg"
+      }
+    },
+    "carrot": {
+      "name": "carrot",
+      "origin": "Persia (modern-day Iran and Afghanistan)",
+      "family": "Apiaceae",
+      "scientificName": "Daucus carota",
+      "taste": "Mildly sweet, crunchy",
+      "nutritionalInfo": {
+        "calories": "41 kcal",
+        "carbohydrates": "9.6g",
+        "protein": "0.9g",
+        "fiber": "2.8g",
+        "sugar": "4.7g",
+        "vitaminA": "835 μg"
+      }
+    },
+    "tomato": {
+      "name": "Tomato",
+      "origin": "South America",
+      "family": "Solanaceae",
+      "scientificName": "Solanum lycopersicum",
+      "taste": "Mildly sweet, slightly acidic, juicy",
+      "nutritionalInfo": {
+        "calories": "18 kcal",
+        "carbohydrates": "3.9g",
+        "protein": "0.9g",
+        "fiber": "1.2g",
+        "sugar": "2.6g",
+        "vitaminC": "13.7 mg"
+      }
+    },
+    "spinach": {
+      "name": "Spinach",
+      "origin": "Persia (modern-day Iran)",
+      "family": "Amaranthaceae",
+      "scientificName": "Spinacia oleracea",
+      "taste": "Mildly bitter, slightly earthy",
+      "nutritionalInfo": {
+        "calories": "23 kcal",
+        "carbohydrates": "3.6g",
+        "protein": "2.9g",
+        "fiber": "2.2g",
+        "sugar": "0.4g",
+        "iron": "2.7 mg"
+      }
+    },
+    "broccoli": {
+      "name": "Broccoli",
+      "origin": "Italy",
+      "family": "Brassicaceae",
+      "scientificName": "Brassica oleracea var. italica",
+      "taste": "Slightly bitter, earthy, crunchy",
+      "nutritionalInfo": {
+        "calories": "55 kcal",
+        "carbohydrates": "11.2g",
+        "protein": "3.7g",
+        "fiber": "5.2g",
+        "sugar": "2.5g",
+        "vitaminC": "89.2 mg"
+      }
+    },
+    "bell pepper": {
+      "name": "Bell Pepper",
+      "origin": "Central and South America",
+      "family": "Solanaceae",
+      "scientificName": "Capsicum annuum",
+      "taste": "Sweet, crisp, mildly tangy",
+      "nutritionalInfo": {
+        "calories": "31 kcal",
+        "carbohydrates": "6g",
+        "protein": "1g",
+        "fiber": "2.1g",
+        "sugar": "4.2g",
+        "vitaminC": "127.7 mg"
+      }
+    },
+    "cabbage": {
+      "name": "Cabbage",
+      "origin": "Europe",
+      "family": "Brassicaceae",
+      "scientificName": "Brassica oleracea var. capitata",
+      "taste": "Mild, slightly peppery when raw",
+      "nutritionalInfo": {
+        "calories": "25 kcal",
+        "carbohydrates": "5.8g",
+        "protein": "1.3g",
+        "fiber": "2.5g",
+        "sugar": "3.2g",
+        "vitaminC": "36.6 mg"
+      }
+    },
+    "capsicum": {
+      "name": "Capsicum",
+      "origin": "Americas",
+      "family": "Solanaceae",
+      "scientificName": "Capsicum annuum",
+      "taste": "Sweet to spicy, crisp texture",
+      "nutritionalInfo": {
+        "calories": "40 kcal",
+        "carbohydrates": "9.5g",
+        "protein": "2g",
+        "fiber": "1.5g",
+        "vitaminC": "80.4 mg"
+      }
+    },
+    "cauliflower": {
+      "name": "Cauliflower",
+      "origin": "Mediterranean region",
+      "family": "Brassicaceae",
+      "scientificName": "Brassica oleracea var. botrytis",
+      "taste": "Mild, slightly nutty",
+      "nutritionalInfo": {
+        "calories": "25 kcal",
+        "carbohydrates": "5g",
+        "protein": "1.9g",
+        "fiber": "2g",
+        "sugar": "1.9g",
+        "vitaminC": "48.2 mg"
+      }
+    },
+    "chilli pepper": {
+      "name": "Chilli Pepper",
+      "origin": "Mexico",
+      "family": "Solanaceae",
+      "scientificName": "Capsicum species",
+      "taste": "Spicy, pungent",
+      "nutritionalInfo": {
+        "calories": "40 kcal",
+        "carbohydrates": "8.8g",
+        "protein": "2g",
+        "fiber": "1.5g",
+        "vitaminC": "143.7 mg"
+      }
+    },
+    "corn": {
+      "name": "Corn",
+      "origin": "Mexico and Central America",
+      "family": "Poaceae",
+      "scientificName": "Zea mays",
+      "taste": "Sweet, starchy",
+      "nutritionalInfo": {
+        "calories": "86 kcal",
+        "carbohydrates": "19g",
+        "protein": "3.2g",
+        "fiber": "2.7g",
+        "sugar": "3.2g"
+      }
+    },
+    "cucumber": {
+      "name": "Cucumber",
+      "origin": "India",
+      "family": "Cucurbitaceae",
+      "scientificName": "Cucumis sativus",
+      "taste": "Mild, fresh, crisp texture",
+      "nutritionalInfo": {
+        "calories": "15 kcal",
+        "carbohydrates": "3.6g",
+        "protein": "0.7g",
+        "fiber": "0.5g",
+        "sugar": "1.7g"
+      }
+    },
+    "eggplant": {
+      "name": "Eggplant",
+      "origin": "India and Southeast Asia",
+      "family": "Solanaceae",
+      "scientificName": "Solanum melongena",
+      "taste": "Mild, slightly bitter",
+      "nutritionalInfo": {
+        "calories": "25 kcal",
+        "carbohydrates": "6g",
+        "protein": "1g",
+        "fiber": "3g",
+        "sugar": "3.5g"
+      }
+    },
+    "garlic": {
+      "name": "Garlic",
+      "origin": "Central Asia",
+      "family": "Amaryllidaceae",
+      "scientificName": "Allium sativum",
+      "taste": "Pungent, spicy when raw",
+      "nutritionalInfo": {
+        "calories": "149 kcal",
+        "carbohydrates": "33g",
+        "protein": "6.4g",
+        "fiber": "2.1g",
+        "sugar": "1g"
+      }
+    },
+    "ginger": {
+      "name": "Ginger",
+      "origin": "Maritime Southeast Asia",
+      "family": "Zingiberaceae",
+      "scientificName": "Zingiber officinale",
+      "taste": "Spicy, aromatic",
+      "nutritionalInfo": {
+        "calories": "80 kcal",
+        "carbohydrates": "17.8g",
+        "protein": "1.8g",
+        "fiber": "2g"
+      }
+    },
+    "grapes": {
+      "name": "Grapes",
+      "origin": "Near East",
+      "family": "Vitaceae",
+      "scientificName": "Vitis vinifera",
+      "taste": "Sweet to tart, juicy",
+      "nutritionalInfo": {
+        "calories": "69 kcal",
+        "carbohydrates": "18.1g",
+        "protein": "0.7g",
+        "fiber": "0.9g",
+        "sugar": "15.5g"
+      }
+    },
+    "jalapeno": {
+      "name": "Jalapeño",
+      "origin": "Mexico",
+      "family": "Solanaceae",
+      "scientificName": "Capsicum annuum",
+      "taste": "Medium spicy, grassy",
+      "nutritionalInfo": {
+        "calories": "28 kcal",
+        "carbohydrates": "6.5g",
+        "protein": "0.9g",
+        "fiber": "2.8g",
+        "vitaminC": "118.6 mg"
+      }
+    },
+    "kiwi": {
+      "name": "Kiwi",
+      "origin": "China",
+      "family": "Actinidiaceae",
+      "scientificName": "Actinidia deliciosa",
+      "taste": "Sweet-tart, unique flavor",
+      "nutritionalInfo": {
+        "calories": "61 kcal",
+        "carbohydrates": "14.7g",
+        "protein": "1.1g",
+        "fiber": "3g",
+        "sugar": "9g",
+        "vitaminC": "92.7 mg"
+      }
+    },
+    "lemon": {
+      "name": "Lemon",
+      "origin": "Northeast India",
+      "family": "Rutaceae",
+      "scientificName": "Citrus limon",
+      "taste": "Sour, acidic",
+      "nutritionalInfo": {
+        "calories": "29 kcal",
+        "carbohydrates": "9.3g",
+        "protein": "1.1g",
+        "fiber": "2.8g",
+        "sugar": "2.5g",
+        "vitaminC": "53 mg"
+      }
+    },
+    "lettuce": {
+      "name": "Lettuce",
+      "origin": "Mediterranean Basin",
+      "family": "Asteraceae",
+      "scientificName": "Lactuca sativa",
+      "taste": "Mild, crisp, slightly bitter",
+      "nutritionalInfo": {
+        "calories": "15 kcal",
+        "carbohydrates": "2.9g",
+        "protein": "1.4g",
+        "fiber": "1.3g",
+        "sugar": "0.8g"
+      }
+    },
+    "onion": {
+      "name": "Onion",
+      "origin": "Central Asia",
+      "family": "Amaryllidaceae",
+      "scientificName": "Allium cepa",
+      "taste": "Pungent, sweet when cooked",
+      "nutritionalInfo": {
+        "calories": "40 kcal",
+        "carbohydrates": "9.3g",
+        "protein": "1.1g",
+        "fiber": "1.7g",
+        "sugar": "4.2g"
+      }
+    },
+    "paprika": {
+      "name": "Paprika",
+      "origin": "Central America",
+      "family": "Solanaceae",
+      "scientificName": "Capsicum annuum",
+      "taste": "Sweet, mild to slightly spicy",
+      "nutritionalInfo": {
+        "calories": "282 kcal",
+        "carbohydrates": "53.9g",
+        "protein": "14.1g",
+        "fiber": "34.9g"
+      }
+    },
+    "pear": {
+      "name": "Pear",
+      "origin": "Central and Eastern Europe, Asia",
+      "family": "Rosaceae",
+      "scientificName": "Pyrus species",
+      "taste": "Sweet, gritty texture",
+      "nutritionalInfo": {
+        "calories": "57 kcal",
+        "carbohydrates": "15.2g",
+        "protein": "0.4g",
+        "fiber": "3.1g",
+        "sugar": "9.8g"
+      }
+    },
+    "peas": {
+      "name": "Peas",
+      "origin": "Mediterranean region",
+      "family": "Fabaceae",
+      "scientificName": "Pisum sativum",
+      "taste": "Sweet, starchy",
+      "nutritionalInfo": {
+        "calories": "81 kcal",
+        "carbohydrates": "14.5g",
+        "protein": "5.4g",
+        "fiber": "5.1g",
+        "sugar": "5.7g"
+      }
+    },
+    "pineapple": {
+      "name": "Pineapple",
+      "origin": "South America",
+      "family": "Bromeliaceae",
+      "scientificName": "Ananas comosus",
+      "taste": "Sweet, tangy, tropical",
+      "nutritionalInfo": {
+        "calories": "50 kcal",
+        "carbohydrates": "13.1g",
+        "protein": "0.5g",
+        "fiber": "1.4g",
+        "sugar": "9.9g",
+        "vitaminC": "47.8 mg"
+      }
+    },
+    "pomegranate": {
+      "name": "Pomegranate",
+      "origin": "Iran and Northern India",
+      "family": "Lythraceae",
+      "scientificName": "Punica granatum",
+      "taste": "Sweet-tart, juicy seeds",
+      "nutritionalInfo": {
+        "calories": "83 kcal",
+        "carbohydrates": "18.7g",
+        "protein": "1.7g",
+        "fiber": "4g",
+        "sugar": "13.7g"
+      }
+    },
+    "potato": {
+      "name": "Potato",
+      "origin": "South America",
+      "family": "Solanaceae",
+      "scientificName": "Solanum tuberosum",
+      "taste": "Mild, starchy",
+      "nutritionalInfo": {
+        "calories": "77 kcal",
+        "carbohydrates": "17.5g",
+        "protein": "2g",
+        "fiber": "2.2g",
+        "sugar": "0.8g"
+      }
+    },
+    "radish": {
+      "name": "Radish",
+      "origin": "Southeast Asia",
+      "family": "Brassicaceae",
+      "scientificName": "Raphanus sativus",
+      "taste": "Peppery, crisp",
+      "nutritionalInfo": {
+        "calories": "16 kcal",
+        "carbohydrates": "3.4g",
+        "protein": "0.7g",
+        "fiber": "1.6g",
+        "sugar": "1.9g"
+      }
+    },
+    "soybeans": {
+      "name": "Soybeans",
+      "origin": "East Asia",
+      "family": "Fabaceae",
+      "scientificName": "Glycine max",
+      "taste": "Mild, nutty",
+      "nutritionalInfo": {
+        "calories": "172 kcal",
+        "carbohydrates": "8.4g",
+        "protein": "18.2g",
+        "fiber": "6g",
+        "sugar": "3g"
+      }
+    },
+    "sweet corn": {
+      "name": "Sweet Corn",
+      "origin": "Mexico and Central America",
+      "family": "Poaceae",
+      "scientificName": "Zea mays var. saccharata",
+      "taste": "Sweet, starchy",
+      "nutritionalInfo": {
+        "calories": "86 kcal",
+        "carbohydrates": "19g",
+        "protein": "3.2g",
+        "fiber": "2.7g",
+        "sugar": "6.3g"
+      }
+    },
+    "sweet potato": {
+      "name": "Sweet Potato",
+      "origin": "Central or South America",
+      "family": "Convolvulaceae",
+      "scientificName": "Ipomoea batatas",
+      "taste": "Sweet, starchy",
+      "nutritionalInfo": {
+        "calories": "86 kcal",
+        "carbohydrates": "20.1g",
+        "protein": "1.6g",
+        "fiber": "3g",
+        "sugar": "4.2g"
+      }
+    },
+    "turnip": {
+      "name": "Turnip",
+      "origin": "Europe or western Asia",
+      "family": "Brassicaceae",
+      "scientificName": "Brassica rapa",
+      "taste": "Mild, slightly sweet when young",
+      "nutritionalInfo": {
+        "calories": "28 kcal",
+        "carbohydrates": "6.4g",
+        "protein": "0.9g",
+        "fiber": "1.8g",
+        "sugar": "3.8g"
+      }
+    },
+    "watermelon": {
+      "name": "Watermelon",
+      "origin": "Northeast Africa",
+      "family": "Cucurbitaceae",
+      "scientificName": "Citrullus lanatus",
+      "taste": "Sweet, refreshing, juicy",
+      "nutritionalInfo": {
+        "calories": "30 kcal",
+        "carbohydrates": "7.6g",
+        "protein": "0.6g",
+        "fiber": "0.4g",
+        "sugar": "6.2g"
+      }
+    }
+  }
